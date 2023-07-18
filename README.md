@@ -9,6 +9,13 @@ Telegram Bot QR - Телеграм бот для отправки QR кода и
 * Добавлен Английский
 * Добавлен файл conf.py
 
+# Установка
+Версия python: 3.10.11
+```
+> pip install pyTelegramBotAPI
+> pip install qrcode
+```
+
 # Wiki
 main.py - Исполнительный файл. Необходимо запускать файл в консоли.
 
