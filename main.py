@@ -43,7 +43,7 @@ def start(message):
 
 
 @bot.message_handler(commands = ['lang']) # /lang
-def lang(message):\
+def lang(message):
     
     conn = SQL.fetchone('SELECT {}, {} FROM {} WHERE {}=\'{}\''.format(conf.db_names[0],conf.db_names[1],conf.db_table,conf.db_names[0],message.from_user.id))
      # получаем данные пользователя.
